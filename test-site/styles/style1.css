@@ -1,0 +1,19 @@
+@media (min-width: 70em) {
+    body {
+        font-size: 130%;
+    }
+}
+
+.container {
+    background-image: url("images/maldives.jpg");
+}
+
+span {
+   color: red;
+}
+ol {
+    list-style-type: upper-roman;
+}
+body {
+    background-image: url("images/maldives.jpg");
+}
