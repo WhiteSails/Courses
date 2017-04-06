@@ -22,12 +22,11 @@ if ($_POST['newLessonName']) {
 </head>
 <body>
 <div class="container">
-    <h1 onclick="this.innerHTML = 'Ooops!'">Click on this text!</h1>
+    <h1 onclick="this.innerHTML = 'Hi!'">Start Learning Now</h1>
 
     <form action="" method="post">
 
         <ol>
-            <li>Dinamic</li>
 
             <?php
             /*   foreach ($checkboxes as $key => $checkboxobject) {
@@ -44,33 +43,39 @@ if ($_POST['newLessonName']) {
             <input type="checkbox" name="action" checked>B5<br>
             <input type="checkbox" name="action" checked>B8<br>
             <input type="checkbox" name="action" checked>B6<br>
+            <input type="checkbox" name="action" checked>B7<br>
+            <input type="checkbox" name="action" checked>B9<br>
+            <input type="checkbox" name="action" checked>A14<br>
+            <input type="checkbox" name="action" checked>A10(не удалось увидеть примеры)<br>
+            <input type="checkbox" name="action" checked>A7<br>
+            <input type="checkbox" name="action" >A3<br>
+            <input type="text" name="newLessonName">
 
-            <input type="checkbox" name="action" checked>B7</><br>
-
-        <input type="checkbox" name="action"><span style="color:green;">B9</span><br>
-
-        <input type="checkbox" name="action" checked>A14<br>
-        <input type="checkbox" name="action" checked>A10(не удалось увидеть примеры)<br>
-
-        <input type="checkbox" name="action" checked>A7<br>
-        <input type="text" name="newLessonName">
-
-        <button>Add new</button>
 
         <li>https://developer.mozilla.org</li>
         <input type="checkbox" name="action" checked>HTML<br>
         <input type="checkbox" name="action" checked>CSS<br>
         <input type="checkbox" name="action"><span>JavaScript</span><br>
-        <input type="checkbox" name="action"><span>Learn Git</span><br>
-        <input type="checkbox" name="action" checked>Learn the Command Line<br>
-        <input type="checkbox" name="action"><span>SQL</span><br>
         <input type="checkbox" name="action">Accessibility<br>
         <input type="checkbox" name="action">Tools and testing<br>
         <input type="checkbox" name="action">Server-side website programming<br>
 
+            <li>CodeCademy</li>
+        <input type="checkbox" name="action" checked>Learn Git<br>
+        <input type="checkbox" name="action" checked>Learn the Command Line<br>
+            <input type="checkbox" name="action"><a href="https://www.codecademy.com/learn/react-101">ReactJs</a><br>
+        <input type="checkbox" name="action"><span><a
+                    href="https://www.codecademy.com/learn/learn-sql">SQL</a></span><br>
 
-        <li><input type="checkbox" name="action">Прослушать курс Веб-технологии.</li>
-        <li><input type="checkbox" name="action"><a href="https://www.codecademy.com/learn/react-101">ReactJs</a></li>
+            <li>W3schools</li>
+            <input type="checkbox" name="action"><span><a href="https://www.w3schools.com/bootstrap/bootstrap_get_started.asp">Bootsrap</a></span><br>
+            <input type="checkbox" name="action"><span><a href="https://www.w3schools.com/js/default.asp">JavaScript</a></span><br>
+
+        <li>Web-technology</li>
+            <input type="checkbox" name="action">Прослушать курс Веб-технологии
+
+        <li>JavaScript 30 Day Challenge</li>
+            <input type="checkbox" name="action"><span><a href="https://javascript30.com/account">JavaScript 30 Day Challenge</a></span><br>
 
         </ol>
 
